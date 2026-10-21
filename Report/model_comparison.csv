@@ -1,0 +1,7 @@
+model,train_acc,test_acc,precision,recall,f1,roc_auc,missed_risky,false_alarms
+logistic_regression,0.8,0.765,0.722,0.658,0.689,0.845,27,20
+decision_tree_unrestricted,1.0,0.84,0.813,0.772,0.792,0.828,18,14
+decision_tree_depth4,0.839,0.8,0.855,0.595,0.701,0.88,32,8
+random_forest,1.0,0.83,0.817,0.734,0.773,0.93,21,13
+xgboost_default,1.0,0.86,0.823,0.823,0.823,0.935,14,14
+xgboost_tuned,1.0,0.855,0.847,0.772,0.808,0.937,18,11
