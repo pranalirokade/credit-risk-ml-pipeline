@@ -1,0 +1,7 @@
+venv/
+mlflow.db
+mlruns/
+.ipynb_checkpoints/
+__pycache__/
+.idea/
+main.py
